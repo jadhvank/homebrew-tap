@@ -7,7 +7,7 @@ cask "eclam" do
   desc "Menu bar app: keep macOS awake while agents work; safe sleep when conditions degrade"
   homepage "https://github.com/jadhvank/eclam"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
   # build.sh is arm64-only (no universal binary yet — docs/TODO.md). Without
   # this gate an Intel brew install succeeds and the app crashes at launch.
   depends_on arch: :arm64
