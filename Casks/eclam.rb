@@ -1,6 +1,6 @@
 cask "eclam" do
-  version "0.6.3"
-  sha256 "f74e991463e8985566a279ea5c8bb1b2d187af5b591e0b5bff558416a2831f32"
+  version "0.6.5"
+  sha256 "2ff0b3795570ce8a94d4e8e3d9ab8ecc7b67b15cf4c7b5e6838728ceeac06649"
 
   url "https://github.com/jadhvank/eclam/releases/download/v#{version}/ElectronicClam-#{version}.zip"
   name "ElectronicClam"
